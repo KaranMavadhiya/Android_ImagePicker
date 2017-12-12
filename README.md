@@ -1,5 +1,7 @@
 # Android ImagePicker
 
+![](http://res.cloudinary.com/reyinfotech/image/upload/c_scale,w_294/v1513079547/ImagePicker/Screenshot_1.png)  ![]( http://res.cloudinary.com/reyinfotech/image/upload/c_scale,w_294/v1513079547/ImagePicker/Screenshot_2.png)
+
 * Step 1: Initialize Request code
 ~~~
 public static final int REQUEST_PICK_IMAGE = 101;
