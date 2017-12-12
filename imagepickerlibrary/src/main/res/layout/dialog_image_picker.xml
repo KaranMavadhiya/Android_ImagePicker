@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_image_picker_rl_parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/color_bg_dialog">
+
+    <LinearLayout
+        android:id="@+id/dialog_image_picker_ll_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/dialog_image_picker_tv_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="@string/lbl_gallery"
+            android:textColor="@android:color/background_dark"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/color_divider" />
+
+        <TextView
+            android:id="@+id/dialog_image_picker_tv_camera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="@string/lbl_camera"
+            android:textColor="@android:color/background_dark"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"  />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/color_divider" />
+
+        <TextView
+            android:id="@+id/dialog_image_picker_tv_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="@string/lbl_cancel"
+            android:textColor="@android:color/background_dark"
+            android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium" />
+
+    </LinearLayout>
+
+</RelativeLayout>

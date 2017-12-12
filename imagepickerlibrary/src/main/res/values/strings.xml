@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ImagePickerLibrary</string>
+    <string name="lbl_gallery">Gallery</string>
+    <string name="lbl_camera">Camera</string>
+    <string name="lbl_cancel">Cancel</string>
+    <string name="permission_required">Permission is required for further process.</string>
+</resources>
