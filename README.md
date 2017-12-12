@@ -10,7 +10,7 @@ private Uri selectedImage;
 private String selectedFilePath;
 ~~~
 
-* Step 2 : Call openImagePickerDialog(this); // This is Context
+* Step 2 : Call openImagePickerDialog(this); 
 ~~~
 /**
  * Open image picker dialog
